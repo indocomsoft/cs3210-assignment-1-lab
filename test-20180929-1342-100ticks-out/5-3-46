@@ -1,0 +1,16 @@
+total trains: 54
+Running simulation with 54 threads
+green: 5 trains -> 10.3, 25.9, 6.4
+yellow: 3 trains -> 5.8, 14.6, 5.0
+blue: 46 trains -> 5.8, 16.4, 1.2
+
+ Performance counter stats for './sim':
+
+           152,595      branch-misses                                               
+            22,446      cache-misses                                                
+        63,701,696      instructions              #    0.24  insns per cycle        
+       270,884,266      cycles                                                      
+            10,291      context-switches                                            
+
+       0.037212395 seconds time elapsed
+
